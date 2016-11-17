@@ -25,7 +25,7 @@ set -euo pipefail
 failcode=1
 
 nlines=$(git status . --porcelain | wc -l)
-if [ $nlines -ne 0 ] ; then
+if [ ${nlines} -ne 0 ] ; then
   cat <<EOF
 #####################################################
 # Nice! You have changes. Now commit or stash them. #
@@ -44,7 +44,7 @@ echo "${gitstatus}" | grep "Your branch is up-to-date" >/dev/null
 code=$?
 set -e
 
-if [ $code -ne 0 ] ; then
+if [ ${code} -ne 0 ] ; then
   cat <<EOF
 #####################################
 # Nice! You have commits. Now push. #
