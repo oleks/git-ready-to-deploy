@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-failcode=2
+failcode=1
 
 nstatuslines=$(git status . --porcelain | wc -l)
 if [ $nstatuslines -ne 0 ] ; then
