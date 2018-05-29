@@ -39,13 +39,8 @@ fi
 echo "Let me check your remote.."
 git remote update
 
-gitstatus=$(git status .)
-set +e
-echo "${gitstatus}" | grep "Your branch is up-to-date" >/dev/null
-code=$?
-set -e
-
-if [ ${code} -ne 0 ] ; then
+nlines=$(git cherry | grep "^+" | wc -l)
+if [ ${nlines} -ne 0 ] ; then
   cat <<EOF
 #####################################
 # Nice! You have commits. Now push. #
