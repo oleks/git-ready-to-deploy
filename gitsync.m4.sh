@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+syscmd(`perl -pe "chomp if eof" LICENSE |
+  sed "s/^/# /"')
+
 # This file was generated from an m4 template.
 syscmd(`date -u --iso-8601=minutes |
   sed "s/^/# Generation date-time (ISO 8601): /"')dnl
@@ -9,9 +12,6 @@ syscmd(`git remote get-url origin |
   sed "s/\\.git$//" |
   sed "s/^/# Git repository URL: /"')dnl
 syscmd(`git rev-parse HEAD | sed "s/^/# Commit ID: /"')dnl
-
-syscmd(`perl -pe "chomp if eof" LICENSE |
-  sed "s/^/# /"')
 
 set -euo pipefail
 
