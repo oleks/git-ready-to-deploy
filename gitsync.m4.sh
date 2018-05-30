@@ -10,7 +10,8 @@ syscmd(`git remote get-url origin |
   sed "s/^/# Git repository URL: /"')dnl
 syscmd(`git rev-parse HEAD | sed "s/^/# Commit ID: /"')dnl
 
-patsubst(include(`LICENSE'changecom(`,'))changecom(`#'), `^', `# ')
+syscmd(`perl -pe "chomp if eof" LICENSE |
+  sed "s/^/# /"')
 
 set -euo pipefail
 
