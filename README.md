@@ -9,3 +9,9 @@ This is useful in a manual deployment setting where you also want to ensure
 that the deployed version is under version control.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oleks/gitsync/blob/master/LICENSE)
+
+## Build
+
+To ensure proper accreditation to this repository, and reduce code
+duplication, `gitsync.sh` is generated from [its m4
+template](gitsync.m4.sh). Simply type `make` to build it.
