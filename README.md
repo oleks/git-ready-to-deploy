@@ -14,10 +14,11 @@ ensure that:
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oleks/gitsync/blob/master/LICENSE)
 
-## Build
+## Where's the Shell Script?
 
 To ensure proper accreditation to this repository, and reduce code
 duplication, `gitsync.sh` is generated from [an m4
 template](gitsync.m4). Simply type `make` to build it, if you already
 have the [m4 macro processor](https://www.gnu.org/software/m4/m4.html)
-installed.
+installed, or simply fetch [the latest release of the shell
+script](https://github.com/oleks/gitsync/releases/latest).
