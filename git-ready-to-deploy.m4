@@ -18,7 +18,6 @@ set -euo pipefail
 failcode=1
 
 nlines=$(git status . --porcelain | wc -l)
-  sed "s/^git@/https:\\/\\//" |
 if [ ${nlines} -ne 0 ] ; then
   cat <<EOF
 #####################################################
