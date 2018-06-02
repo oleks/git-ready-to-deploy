@@ -31,7 +31,7 @@ fi
 echo "Let me check your remote.."
 git remote update
 
-nlines=$(git cherry | grep "^+" | wc -l)
+nlines=$(git cherry | (grep "^+" || true) | wc -l)
 if [ ${nlines} -ne 0 ] ; then
   cat <<EOF
 #####################################
