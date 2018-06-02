@@ -1,8 +1,8 @@
 # Get Ready to Deploy!
 
-`git-ready-to-deploy.sh` (pronounced "get ready to deploy") is a
-simple script to ensure that the local clone is clean (no uncommitted
-changes), and there are no local commits to be pushed upstream.
+`git-ready-to-deploy.sh` (pronounced "get ready to deploy") can ensure
+that the local clone is clean (no uncommitted changes), and there are
+no local commits to be pushed upstream.
 
 This is useful in a manual deployment setting, where you want to
 ensure that:
