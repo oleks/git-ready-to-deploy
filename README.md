@@ -14,7 +14,7 @@ ensure that:
 
 ## Where's the Shell Script?
 
-To ensure proper accreditation to this repository, and reduce code
+To ensure proper accreditation, manage releases, and reduce code
 duplication, `git-ready-to-deploy.sh` is generated from [an m4
 template](git-ready-to-deploy.m4):
 
