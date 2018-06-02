@@ -20,5 +20,7 @@ template](git-ready-to-deploy.m4):
 
   1. Type `make` to build it, if you already have the [m4 macro
 processor](https://www.gnu.org/software/m4/m4.html) installed, or;
-  2. fetch [the latest release of the shell
-script](https://github.com/oleks/git-ready-to-deploy/releases/latest).
+  2. Fetch the
+[latest](https://github.com/oleks/git-ready-to-deploy/releases/latest)
+[release](https://github.com/oleks/git-ready-to-deploy/releases) of
+the shell script.
