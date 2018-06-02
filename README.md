@@ -3,7 +3,8 @@
 `gitsync.sh` (based on [`gitsync.m4`](gitsync.m4)) is a simple script
 to ensure that a local clone is in sync with a remote.
 
-That is, no local, non-committed changes, and no new commits on the remote.
+That is, no local, non-committed changes, and no new commits to be
+applied upstream (pushed to the default remote).
 
 This is useful in a manual deployment setting where you also want to ensure
 that the deployed version is under version control.
