@@ -17,5 +17,5 @@ ensure that:
 ## Build
 
 To ensure proper accreditation to this repository, and reduce code
-duplication, `gitsync.sh` is generated from [its m4
+duplication, `gitsync.sh` is generated from [an m4
 template](gitsync.m4). Simply type `make` to build it.
