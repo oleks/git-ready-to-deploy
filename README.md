@@ -25,6 +25,22 @@ processor](https://www.gnu.org/software/m4/m4.html) installed, or;
 [release](https://github.com/oleks/git-ready-to-deploy/releases) of
 the shell script.
 
+## Target Audience
+
+This script should be used only if applicable in your deployment
+process. In particular, a deployment process where someone, perhaps a
+bot, can pull, make changes, and *can* deploy without committing and
+pushing back first.
+
+In this scenario, this script is best-used as an integral part of your
+"deploy script", whatever it may be. This script will adequately fail,
+if there are changes to be committed, or pushed. If used properly, it
+can prohibit deployment of ill-versioned code.
+
+Alternative deployment strategies include push-to-deploy, or
+push-to-staging, with a subsequent process for deploying from staging.
+This script is unlikely to be useful in these scenarios.
+
 ## Community Review
 
 Discussed on [Hacker
