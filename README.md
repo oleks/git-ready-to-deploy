@@ -33,9 +33,9 @@ bot, can pull, make changes, and *can* deploy without committing and
 pushing back first.
 
 In this scenario, this script is best-used as an integral part of your
-"deploy script", whatever it may be. This script will adequately fail,
-if there are changes to be committed, or pushed. If used properly, it
-can prohibit deployment of ill-versioned code.
+"deploy script". `git-ready-to-deploy.sh` fails, if there are changes
+to be committed, or pushed. If used properly, it can prohibit
+deployment of ill-versioned code.
 
 Alternative deployment strategies include push-to-deploy, or
 push-to-staging, with a subsequent process for deploying from staging.
