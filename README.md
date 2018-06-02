@@ -18,4 +18,6 @@ ensure that:
 
 To ensure proper accreditation to this repository, and reduce code
 duplication, `gitsync.sh` is generated from [an m4
-template](gitsync.m4). Simply type `make` to build it.
+template](gitsync.m4). Simply type `make` to build it, if you already
+have the [m4 macro processor](https://www.gnu.org/software/m4/m4.html)
+installed.
