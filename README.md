@@ -24,3 +24,8 @@ processor](https://www.gnu.org/software/m4/m4.html) installed, or;
 [latest](https://github.com/oleks/git-ready-to-deploy/releases/latest)
 [release](https://github.com/oleks/git-ready-to-deploy/releases) of
 the shell script.
+
+## Community Review
+
+Discussed on [Hacker
+News](https://news.ycombinator.com/item?id=17213891).
