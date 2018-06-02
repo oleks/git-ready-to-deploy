@@ -1,6 +1,6 @@
 .PHONY: gitsync.sh clean
 
-gitsync.sh: gitsync.m4.sh LICENSE Makefile
+gitsync.sh: gitsync.m4 LICENSE Makefile
 	m4 $< > $@
 
 clean:

@@ -14,4 +14,4 @@ that the deployed version is under version control.
 
 To ensure proper accreditation to this repository, and reduce code
 duplication, `gitsync.sh` is generated from [its m4
-template](gitsync.m4.sh). Simply type `make` to build it.
+template](gitsync.m4). Simply type `make` to build it.
