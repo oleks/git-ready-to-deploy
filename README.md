@@ -16,8 +16,9 @@ ensure that:
 
 To ensure proper accreditation to this repository, and reduce code
 duplication, `git-ready-to-deploy.sh` is generated from [an m4
-template](git-ready-to-deploy.m4). Simply type `make` to build it, if
-you already have the [m4 macro
+template](git-ready-to-deploy.m4).
+
+Type `make` to build it, if you already have the [m4 macro
 processor](https://www.gnu.org/software/m4/m4.html) installed, or
 simply fetch [the latest release of the shell
 script](https://github.com/oleks/git-ready-to-deploy/releases/latest).
