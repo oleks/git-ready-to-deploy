@@ -16,7 +16,7 @@ ensure that:
 
 To ensure proper accreditation, manage releases, and reduce code
 duplication, `git-ready-to-deploy.sh` is generated from [an m4
-template](git-ready-to-deploy.m4):
+template](git-ready-to-deploy.m4). To get the shell script, either:
 
   1. Type `make` to build it, if you already have the [m4 macro
 processor](https://www.gnu.org/software/m4/m4.html) installed, or;
