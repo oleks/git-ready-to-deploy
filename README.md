@@ -23,12 +23,12 @@ To ensure proper accreditation, manage releases, and reduce code
 duplication, `git-ready-to-deploy.sh` is generated from [an m4
 template](git-ready-to-deploy.m4). To get the shell script, either:
 
-  1. Type `make` to build it, if you already have the [m4 macro
-processor](https://www.gnu.org/software/m4/m4.html) installed, or;
-  2. Fetch the
+  1. Fetch the
 [latest](https://github.com/oleks/git-ready-to-deploy/releases/latest)
 [release](https://github.com/oleks/git-ready-to-deploy/releases) of
-the shell script.
+the shell script, or;
+  2. Type `make` to build it, if you happen to have the [m4 macro
+processor](https://www.gnu.org/software/m4/m4.html) installed.
 
 Please note, the last step of building `git-ready-to-deploy.sh` is to
 execute the thus built `git-ready-to-deploy.sh`. This ensures a clean
