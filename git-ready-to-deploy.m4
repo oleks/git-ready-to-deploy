@@ -8,7 +8,7 @@ syscmd(`git remote get-url origin |
   sed "s/^git@/https:\\/\\//" |
   sed "s/\\.git$//" |
   sed "s/^/# Git repository URL: /"')dnl
-syscmd(`git rev-parse HEAD | sed "s/^/# Commit ID: /"')dnl
+format(`# Commit ID: %s', include(HEAD_PATH))dnl
 
 syscmd(`perl -pe "chomp if eof" LICENSE |
   sed "s/^/# /"')
