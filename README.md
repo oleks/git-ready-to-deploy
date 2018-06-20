@@ -10,6 +10,11 @@ ensure that:
   1. Nothing uncommitted gets deployed.
   2. Nothing not yet applied upstream gets deployed.
 
+For example, this repository uses `git-ready-to-deploy.sh` on itself,
+to help assure the quality of the
+[releases](https://github.com/oleks/git-ready-to-deploy/releases) of
+`git-ready-to-deploy.sh` itself.
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oleks/git-ready-to-deploy/blob/master/LICENSE)
 
 ## Where's the Shell Script?
@@ -24,6 +29,11 @@ processor](https://www.gnu.org/software/m4/m4.html) installed, or;
 [latest](https://github.com/oleks/git-ready-to-deploy/releases/latest)
 [release](https://github.com/oleks/git-ready-to-deploy/releases) of
 the shell script.
+
+Please note, the last step of building `git-ready-to-deploy.sh` is to
+execute the thus built `git-ready-to-deploy.sh`. This ensures a clean
+release of `git-ready-to-deploy.sh`, so long as you mind the exit code
+from `make`.
 
 ## Target Audience
 
