@@ -11,9 +11,8 @@ ensure that:
   2. Nothing not yet applied upstream gets deployed.
 
 For example, this repository uses `git-ready-to-deploy.sh` on itself,
-to help assure the quality of the
-[releases](https://github.com/oleks/git-ready-to-deploy/releases) of
-`git-ready-to-deploy.sh` itself.
+to help assure the quality of its
+[releases](https://github.com/oleks/git-ready-to-deploy/releases).
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oleks/git-ready-to-deploy/blob/master/LICENSE)
 
