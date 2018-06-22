@@ -9,6 +9,7 @@ git-ready-to-deploy.sh: \
 		$(HEAD_PATH)
 	m4 -D "HEAD_PATH=$(HEAD_PATH)" $< > $@
 	chmod +x $@
+	./$@
 
 clean:
 	rm -f git-ready-to-deploy.sh
